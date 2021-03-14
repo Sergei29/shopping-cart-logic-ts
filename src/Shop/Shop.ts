@@ -96,6 +96,14 @@ class Shop extends Observer {
    */
   removeArticle(articleId: string) {
     this.verifyArticle(articleId);
+    const prevState = this.getState();
+    const newState = {
+      ...prevState,
+      articles: prevState.articles.filter(
+        (article) => article.id !== articleId
+      ),
+    };
+    this.setState(newState);
     return this;
   }
 
