@@ -1,11 +1,10 @@
 import Shop from "../Shop/Shop";
 import User from "../User/User";
-import Article from "../Article/Article"; // shop:
+import Article from "../Article/Article";
 import { TOOTHPASTE_DISCOUNT, SOAP_DISCOUNT } from "./testData";
+import { print } from "./utils";
 
-const print = (mixedNestedValue: any) =>
-  console.log(JSON.stringify(mixedNestedValue, null, 2));
-
+// shop:
 const shopOne = new Shop("Best One");
 
 // Articles:

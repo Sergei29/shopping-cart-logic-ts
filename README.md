@@ -2,7 +2,7 @@
 
 - clone repo `git clone https://github.com/Sergei29/shopping-cart-logic-ts.git`;
 - install package(s): `npm i`
-- run `npm start`
+- test the checkout logic `npm run test`
 
 ## Logic:
 
