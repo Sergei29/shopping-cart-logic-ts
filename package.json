@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "tsc && node dist/App/App.js"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
