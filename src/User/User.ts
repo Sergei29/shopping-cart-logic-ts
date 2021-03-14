@@ -3,7 +3,7 @@ import { ArticleType } from "../Article/Article";
 import CartItem, { CartItemType } from "../CartItem/CartItem";
 
 /**
- * @description user class that is can visit/subscribe to shop, select items from shop's articles into user's shopping crt;
+ * @description user class that is can visit/subscribe to shop, select items from shop's articles into user's shopping cart;
  */
 class User extends Subscriber {
   cart: CartItemType[];
