@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "tsc && node dist/App/App.js"
   },
   "keywords": [],
@@ -15,6 +15,9 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@types/uuid": "^8.3.0"
+    "@types/jest": "^26.0.20",
+    "@types/uuid": "^8.3.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.3"
   }
 }

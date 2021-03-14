@@ -10,7 +10,7 @@ const shopOne = new Shop("Best One");
 const soap = new Article("soap", 30, { price: 10, forNumberOfItems: 3 });
 const showerGel = new Article("shower gel", 10);
 const toothpaste = new Article("toothpaste", 5);
-const toiletPaper = new Article("toilet paper", 12, {
+const toiletPaper = new Article("toilet paper 1/4mile", 12, {
   price: 6,
   forNumberOfItems: 5,
 });
@@ -37,5 +37,4 @@ Serge.addToCart(soap)
   .addToCart(soap)
   .addToCart(soap)
   .removeFromCart(soap);
-Serge.calculateTotal();
 console.log(`Serge: `, Serge);

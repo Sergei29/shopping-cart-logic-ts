@@ -27,7 +27,6 @@ class User extends Subscriber {
     });
 
     this.cart = newCart;
-    this.calculateTotal();
     return this;
   }
 
@@ -47,7 +46,6 @@ class User extends Subscriber {
     });
 
     this.cart = newCart;
-    this.calculateTotal();
     return this;
   }
 
@@ -69,6 +67,7 @@ class User extends Subscriber {
     }, 0);
 
     this.totalPrice = newTotalPrice;
+    return this;
   }
 
   isCartItemExisting(itemId: string) {
